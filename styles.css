@@ -1,0 +1,165 @@
+body {
+  color: #40514e;
+  /* COMBAK: change background color for more readable text */
+  margin: 0;
+  /* COMBAK: all margin will be zero */
+  text-align: center;
+  /* font-family: 'Merriweather', serif; */
+  /* font-family: 'helvetica neue'; */
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  /* COMBAK: just top of margin will be zero */
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+  line-height: 2;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+p {
+  line-height: 1.5;
+}
+
+hr {
+  border-width: 8px;
+  border-style: dotted none none none;
+  width: 10%;
+  border-color: #eaf6f6;
+}
+
+a {
+  color: #11999e;
+  margin: auto 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.top-container {
+  /* COMBAK: creat divition for creating a box */
+  background-color: #e4f9f5;
+  position: relative;
+  /* COMBAK: selecting relative parnet for clouds */
+  padding-top: 100px;
+}
+
+.font-increase {
+  font-size: 1.5rem;
+}
+
+.profile {
+  width: 50%;
+  margin: 60px auto;
+}
+
+.profile-img {
+  width: 30%;
+}
+
+.skills {
+  margin: 90px auto 150px;
+}
+
+.skill-row {
+  width: 60%;
+  margin: 60px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.coding-gif {
+  width: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.morning-png {
+  width: 20%;
+  float: right;
+}
+
+.contact-me {
+  margin: 60px auto;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.pro {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.intro {
+  width: 80%;
+  margin: auto;
+}
+
+.contact-massage {
+  width: 30%;
+  margin: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  /* COMBAK: relative to top-container */
+  right: 200px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  /* COMBAK: relative to top-container */
+  left: 200px;
+  bottom: 300px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  margin-top: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 16px;
+  background-color: #66bfbf;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #03f7d1;
+  border: solid #337fed 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
